@@ -1,0 +1,41 @@
+#article-container {
+    width:100%;
+    max-width: 800px;
+    display:inline-block;
+    min-height:768px;
+    text-align:left;
+}
+
+.article-head {
+    border-bottom: solid 3px;
+    border-color: #2c3552;
+}
+
+.article-head > * {
+    display:inline-block;
+}
+
+.article-head > h2 {
+    min-width:300px;
+    width: 90%;
+}
+.article-head > .article-edit {
+    text-align: right;
+}
+
+.article-editable {
+    display: inline-block;
+    min-width: 250px;
+    min-height: 300px;
+    width:47%;
+    vertical-align: top;
+    min-width: 300px;
+    box-sizing: border-box;
+    padding:5px;
+}
+
+.article-editable textarea{
+    width: 100%;
+    min-height: 300px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,6 @@
+.git
+./client/node_modules
+./client/build
+./client/.git
+./client/.gitignore
+./client/package-lock.json

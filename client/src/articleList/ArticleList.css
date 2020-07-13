@@ -1,0 +1,20 @@
+.result-list{
+    padding: 5px;
+    margin-left: 0;
+}
+
+.result-list> li {
+    list-style-type: none;
+    background-color: #eee;
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+.result-list> li a{
+    text-decoration:none;
+    display: block;
+    padding: 10px;
+}
+
+.result-list> li a:hover {
+    background-color: #ccc;
+}
